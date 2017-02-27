@@ -32,7 +32,7 @@ Written by  **Babu Srinivasan  (https://www.linkedin.com/in/babu-srinivasan)**
 **HOW TO INSTALL:**  Download the latest version of the script and make it executable:
 ```
 cd ~
-wget https://raw.githubusercontent.com/bvasan/aws-scripts/list-unused-ebs-volumes/list-unused-ebs-volumes.sh
+wget https://raw.githubusercontent.com/bvasan/aws-scripts/master/list-unused-ebs-volumes/list-unused-ebs-volumes.sh
 chmod +x list-unused-ebs-volumes.sh
 ```
 You can setup the script in cron to run weekly (eg. every Friday at 8:00PM). Please ensure that the PATH environment variables are included in crontab appropriately and include the complete path to the script
