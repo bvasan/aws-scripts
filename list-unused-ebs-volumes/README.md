@@ -1,7 +1,7 @@
 list-unused-ebs-volumes
 ===================================
 
-####Bash script to create a report of unattached ('Available' state) EBS volumes
+##Bash script to create a report of unattached ('Available' state) EBS volumes
 
 Written by  **Babu Srinivasan  (https://www.linkedin.com/in/babu-srinivasan)**
 
