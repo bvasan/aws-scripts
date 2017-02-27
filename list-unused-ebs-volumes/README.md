@@ -13,11 +13,11 @@ Written by  **Babu Srinivasan  (https://www.linkedin.com/in/babu-srinivasan)**
 **list-unused-ebs-volumes.sh bash script:**
 - Generates a list of EBS Volumes in "Available" status i.e. unattached to EC2 instances, using AWS EC2 service CLI
 - Constructs HTML output containing the list of volumes
-- Writes the output to a HTML file 
-- Sends Email using AWS SES service CLI
+- Writes the output to a HTML file and sends emails using AWS SES service 
+
 ====================================
 
-**REQUIREMENTS:**
+**REQUIREMENTS:** <br/>
 **1. AWS CLI:** This script requires AWS CLI installed on the same machine where you are executing the script. Please refer to latest AWS documentation for installing the AWS CLI. 
 
 **2. IAM Policy:** This script requires IAM policy with appropriate permissions for ec2 describe-volumes and ses send-email. The permissions can be provided to the script via 
