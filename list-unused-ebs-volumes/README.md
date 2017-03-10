@@ -7,7 +7,7 @@ Written by  **Babu Srinivasan  (https://www.linkedin.com/in/babu-srinivasan)**
 
 **Credits:**  1.CaseyLabs  2.Log function by Alan Franzoni 3. Pre-req check by Colin Johnson
 
-**DISCLAIMER:** Ensure that you understand how the script works. Author accepts no resyyponsibility for any data loss or any damages. Please note that the script creates/uses AWS resources in the AWS account where this is executed. Author accepts no responsibility for any charges this may incur in the AWS account where the script is executed.
+**DISCLAIMER:** Ensure that you understand how the script works before you execute it. Author accepts no responsibility for any data loss or any damages. Please note that the script creates/uses AWS resources in the AWS account where this is executed. Author accepts no responsibility for any charges you  may incur by running this script. 
 
 ===================================
 **list-unused-ebs-volumes.sh bash script:**
